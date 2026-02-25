@@ -1,10 +1,8 @@
 # Exploratory Data Analysis: Cars Dataset 2025
  
- This project is a deep dive into a dataset containing over 1,200 car models. The goal was to clean the data, explore market trends, and use statistics to understand what actually drives car performance and pricing.
+ This project is a deep dive into a kaggle dataset containing over 1,200 car models. The goal was to clean the data, explore market trends, and use statistics to understand what actually drives car performance and pricing.
 
 ## Project Overview
-
-The automotive market is complex. This analysis helps simplify it by answering questions like:
 
 - Which brands offer the most variety?
 - Does more horsepower always mean faster acceleration?
@@ -21,7 +19,7 @@ The automotive market is complex. This analysis helps simplify it by answering q
 
 ## Data Cleaning Steps
 
-Real-world data is messy. To make this analysis accurate, I performed several cleaning steps:
+To make this analysis accurate, I performed several cleaning steps:
 
 - Standardization: Fixed column names for better readability (e.g., converted "CC/Battery Capacity" to "Battery_Capacity(cc)").
 - Numeric Conversion: Used Regex to extract numbers from strings like "$1,100,000" or "340 km/h" so they could be used for math.
